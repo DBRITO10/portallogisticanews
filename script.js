@@ -1,4 +1,1 @@
-const toggle = document.getElementById("themeToggle");
-toggle.addEventListener("click", () => {
-  document.body.classList.toggle("dark");
-});
+document.getElementById('theme-toggle').onclick=function(){document.body.classList.toggle('dark');};
